@@ -1,0 +1,45 @@
+# Encryption and Decryption Program
+
+This is a simple command-line program that can be used to encrypt and decrypt integer values using a key. The program is written in C language and uses bit manipulation techniques to perform the encryption and decryption.
+
+## Installation
+
+To use this program, you will need a C compiler installed on your system. If you do not already have one installed, you can install one using your system's package manager. For example, on Ubuntu, you can install the `build-essential` package using the following command:
+
+sudo apt-get install build-essential
+
+
+# Usage
+
+1. Clone this repository or download the `encryption.c` file to your computer.
+
+2. Open a terminal window and navigate to the directory where the `encryption.c` file is located.
+
+3. Compile the source code file using the following command:
+
+gcc -o edcrypter edcrypter.c
+
+
+4. To encrypt an integer value, run the executable file by typing its name and passing two integer arguments: the value to encrypt and the key. For example, to encrypt the integer value `10` using a key of `3`, you can run the following command:
+
+./a.out encrypt 10 3
+
+
+This will output the encrypted value to the console.
+
+5. To decrypt the encrypted value using the same key, run the executable file again with the encrypted value and the key as arguments. For example, to decrypt the encrypted value `80` using the same key of `3`, you can run the following command:
+
+./a.out decrypt 10 3
+
+
+This will output the decrypted value to the console.
+
+## Limitations
+
+This program is designed to work with integer values only. It may not work as expected with floating-point values or other data types. Additionally, this program uses a very simple encryption technique and should not be considered secure for sensitive data.
+
+## License
+
+This code is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+
