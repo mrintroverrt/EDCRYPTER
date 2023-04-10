@@ -13,13 +13,13 @@ gcc -o encryption encryption.c
 
 2.To encrypt an integer value, run the executable file by typing its name and passing two integer arguments: the value to encrypt and the key. For example, to encrypt the integer value `10` using a key of `3`, you can run the following command:
 
-./a.out encrypt 10 3
+./edcrypter encrypt 10 3
 
 This will output the encrypted value to the console.
 
 3.To decrypt the encrypted value using the same key, run the executable file again with the encrypted value and the key as arguments. For example, to decrypt the encrypted value `80` using the same key of `3`, you can run the following command:
 
-./a.out decrypt 10 3
+./edcrypter decrypt 10 3
 
 This will output the decrypted value to the console.
 
